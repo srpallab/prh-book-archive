@@ -1,0 +1,37 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8"/>
+    <meta name="viewport"
+	  content="width=device-width, user-scalable=no, initial-scale=1.0, 
+		   maximum-scale=1.0, minimum-scale=1.0"/>
+    <title>Book Archive API</title>
+    <link rel="shortcut icon" href="images/favicon.png" />
+    <link href="css/style.css" rel="stylesheet"/>
+  </head>
+  <body>
+    <!-- Main Container Start -->
+    <div class="container">
+      <header class="row">
+	<h1 class="header-text">Welcome To The World Of Books</h1>
+      </header>
+      <!-- Search Row Start -->
+      <div class="row">
+	<input id="searchText" name="searchText" type="text"
+	       placeholder="Serach book here" />
+	<button id="search">SEARCH</button>
+      </div>
+      <!-- Search Row End -->
+      <!-- Total Number Row Start -->
+      <div class="row">
+	<p id="total-search"></p>
+      </div>
+      <!-- Total Number Row End -->
+      <!-- Results Row Start -->
+      <div class="row" id="results"></div>
+      <!-- Results Row End -->
+    </div>
+    <!-- Main Container End -->
+    <script src="js/main.js"></script>
+  </body>
+</html>
